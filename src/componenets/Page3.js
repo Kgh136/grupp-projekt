@@ -7,14 +7,12 @@ function Page3() {
     <div style={{backgroundColor: "skyblue"}} >
       <h1 style={{color:"white"}}
       >Utbildningar</h1>
-      <NavLink to="Fullstackdeveloper"> test
-      <button style={{color:"Red"}}> 
-        
-        Fullstackdeveloper</button>
-        </NavLink>
-
-      <h3>Fullstackdeveloper </h3>
-      <h3>Frontend</h3>
+      <h3>Fullstackdeveloper</h3>
+      <h3>Webbramverk</h3>
+      <NavLink to="Fullstackdeveloper"> Fullstackdeveloper</NavLink>
+      
+      <NavLink to="Webbramverk">Webbramverk</NavLink>    
+      
       <Outlet></Outlet>
     </div>
   );
